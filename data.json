@@ -60,15 +60,15 @@
     "descripcion": "Disco de Miles Davis considerado una referencia fundamental del jazz por su improvisacion y su sonido modal."
   },
   {
-    "titulo": "Re",
-    "artista": "Cafe Tacvba",
-    "genero": "rock-latino",
-    "anio": 1994,
-    "sello": "WEA Latina",
-    "pistas": 20,
-    "imagen": "re.svg",
-    "slug": "re",
-    "resumen": "Album clave del rock latinoamericano.",
-    "descripcion": "Disco de Cafe Tacvba que combina rock, musica tradicional mexicana, punk, bolero y otros estilos."
+    "titulo": "Origins",
+    "artista": "Imagine Dragons",
+    "genero": "pop-rock",
+    "anio": 2018,
+    "sello": "Kidinakorner",
+    "pistas": 15,
+    "imagen": "origins.jpg",
+    "slug": "origins",
+    "resumen": "Album de Imagine Dragons con sonido pop rock.",
+    "descripcion": "Cuarto album de estudio de Imagine Dragons, con canciones de pop rock y produccion moderna."
   }
 ]
