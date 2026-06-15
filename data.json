@@ -6,7 +6,7 @@
     "anio": 1982,
     "sello": "Epic",
     "pistas": 9,
-    "imagen": "thriller.avif",
+    "imagen": "thriller.svg",
     "slug": "thriller",
     "resumen": "El album mas vendido de la historia.",
     "descripcion": "Album de Michael Jackson que redefinio la musica pop de los anos 80."
@@ -18,7 +18,7 @@
     "anio": 1980,
     "sello": "Atlantic",
     "pistas": 10,
-    "imagen": "back-in-black.avif",
+    "imagen": "back-in-black.svg",
     "slug": "back-in-black",
     "resumen": "Uno de los albumes de rock mas populares.",
     "descripcion": "Disco de AC/DC que marco una nueva etapa para la banda con Brian Johnson como vocalista."
@@ -30,7 +30,7 @@
     "anio": 1973,
     "sello": "Harvest",
     "pistas": 10,
-    "imagen": "the-dark-side-of-the-moon.avif",
+    "imagen": "the-dark-side-of-the-moon.svg",
     "slug": "the-dark-side-of-the-moon",
     "resumen": "Clasico del rock progresivo.",
     "descripcion": "Album conceptual de Pink Floyd reconocido por su sonido experimental y sus temas sobre tiempo, dinero y salud mental."
@@ -42,7 +42,7 @@
     "anio": 2013,
     "sello": "Columbia",
     "pistas": 13,
-    "imagen": "random-access-memories.avif",
+    "imagen": "random-access-memories.svg",
     "slug": "random-access-memories",
     "resumen": "Regreso de Daft Punk con sonido disco y electronico.",
     "descripcion": "Album de Daft Punk que mezcla musica electronica, funk y disco con colaboraciones de artistas como Pharrell Williams y Nile Rodgers."
@@ -54,7 +54,7 @@
     "anio": 1959,
     "sello": "Columbia",
     "pistas": 5,
-    "imagen": "kind-of-blue.avif",
+    "imagen": "kind-of-blue.svg",
     "slug": "kind-of-blue",
     "resumen": "Obra esencial del jazz modal.",
     "descripcion": "Disco de Miles Davis considerado una referencia fundamental del jazz por su improvisacion y su sonido modal."
@@ -66,7 +66,7 @@
     "anio": 1994,
     "sello": "WEA Latina",
     "pistas": 20,
-    "imagen": "re.avif",
+    "imagen": "re.svg",
     "slug": "re",
     "resumen": "Album clave del rock latinoamericano.",
     "descripcion": "Disco de Cafe Tacvba que combina rock, musica tradicional mexicana, punk, bolero y otros estilos."

@@ -12,6 +12,7 @@ const app = express();
 
 app.enable("strict routing");
 app.use(express.json());
+app.use("/imagenes", express.static("covers"));
 
 const HOST = process.env.HOST ?? "localhost";
 const PORT = Number(process.env.PORT ?? 4321);
