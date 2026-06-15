@@ -5,6 +5,7 @@ import { getAll } from "./routes/albumes/getAll.js";
 import { getByGenero } from "./routes/albumes/getByGenero.js";
 import { getBySlug } from "./routes/albumes/getBySlug.js";
 import { search } from "./routes/albumes/search.js";
+import { update } from "./routes/albumes/update.js";
 
 const app = express();
 
@@ -37,6 +38,7 @@ app.get("/album/:slug", getBySlug);
 app.get("/genero/:genero", getByGenero);
 app.get("/search/:text", search);
 app.post("/albumes", create);
+app.put("/album/:slug", update);
 
 app.listen(PORT, HOST, () => {
   console.log(`Server at http://${HOST}:${PORT}/`);
