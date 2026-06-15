@@ -6,9 +6,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "seed": "node seed.js"
   },
   "dependencies": {
+    "better-sqlite3": "^12.11.1",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "zod": "^3.25.64"
