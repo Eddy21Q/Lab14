@@ -1,5 +1,5 @@
 import { db } from "../../db.js";
-import { albumSchema } from "./album.schema.js";
+import { albumUpdateSchema } from "./album.schema.js";
 
 export const update = (req, res) => {
   const exists = db
@@ -10,7 +10,7 @@ export const update = (req, res) => {
     return res.status(404).json({ error: "Album not found" });
   }
 
-  const parsed = albumSchema.safeParse({
+  const parsed = albumUpdateSchema.safeParse({
     ...req.body,
     slug: req.params.slug
   });

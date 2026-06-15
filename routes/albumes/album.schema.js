@@ -10,20 +10,32 @@ export const crearSlug = (titulo) => {
     .replace(/^-|-$/g, "");
 };
 
-export const albumSchema = z
-  .object({
-    titulo: z.string().trim().min(1),
-    artista: z.string().trim().min(1),
-    genero: z.string().trim().min(1),
-    anio: z.number().int().min(1900).max(2100),
-    sello: z.string().trim().min(1),
-    pistas: z.number().int().positive(),
-    imagen: z.string().trim().min(1),
-    slug: z.string().trim().min(1).optional(),
-    resumen: z.string().trim().min(1),
-    descripcion: z.string().trim().min(1)
+const albumBaseSchema = z.object({
+  titulo: z.string().trim().min(1),
+  artista: z.string().trim().min(1),
+  genero: z.string().trim().min(1),
+  anio: z.number().int().min(1900).max(2100),
+  sello: z.string().trim().min(1),
+  pistas: z.number().int().positive(),
+  imagen: z.string().trim().min(1),
+  resumen: z.string().trim().min(1),
+  descripcion: z.string().trim().min(1)
+});
+
+export const albumSchema = albumBaseSchema
+  .extend({
+    slug: z.string().trim().min(1).optional()
   })
   .transform((album) => ({
     ...album,
-    slug: album.slug ? crearSlug(album.slug) : crearSlug(album.titulo)
+    slug: crearSlug(album.titulo)
+  }));
+
+export const albumUpdateSchema = albumBaseSchema
+  .extend({
+    slug: z.string().trim().min(1)
+  })
+  .transform((album) => ({
+    ...album,
+    slug: crearSlug(album.slug)
   }));
