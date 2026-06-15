@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
-  <rect width="600" height="600" fill="#171717"/>
-  <polygon points="260,210 380,300 260,390" fill="none" stroke="#f4f4f4" stroke-width="10"/>
-  <line x1="80" y1="300" x2="260" y2="300" stroke="#f4f4f4" stroke-width="8"/>
-  <line x1="380" y1="300" x2="520" y2="230" stroke="#e74c3c" stroke-width="8"/>
-  <line x1="380" y1="300" x2="520" y2="300" stroke="#f1c40f" stroke-width="8"/>
-  <line x1="380" y1="300" x2="520" y2="370" stroke="#3498db" stroke-width="8"/>
-  <text x="300" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" fill="#fff">The Dark Side of the Moon</text>
-</svg>

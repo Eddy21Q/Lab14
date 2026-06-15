@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
-  <rect width="600" height="600" fill="#153e67"/>
-  <circle cx="210" cy="210" r="85" fill="#d7ecff" opacity="0.9"/>
-  <path d="M300 170 C390 210 405 340 320 420 C260 475 160 455 130 380" fill="none" stroke="#f4f1dc" stroke-width="18"/>
-  <text x="300" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#fff">Kind of Blue</text>
-  <text x="300" y="548" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#d7ecff">Miles Davis</text>
-</svg>
