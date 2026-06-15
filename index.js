@@ -1,5 +1,6 @@
 import "dotenv/config";
 import express from "express";
+import { create } from "./routes/albumes/create.js";
 import { getAll } from "./routes/albumes/getAll.js";
 import { getByGenero } from "./routes/albumes/getByGenero.js";
 import { getBySlug } from "./routes/albumes/getBySlug.js";
@@ -35,6 +36,7 @@ app.get("/albumes", getAll);
 app.get("/album/:slug", getBySlug);
 app.get("/genero/:genero", getByGenero);
 app.get("/search/:text", search);
+app.post("/albumes", create);
 
 app.listen(PORT, HOST, () => {
   console.log(`Server at http://${HOST}:${PORT}/`);
